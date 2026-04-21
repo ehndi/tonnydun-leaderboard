@@ -1,5 +1,15 @@
+html,
 body {
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
   background: linear-gradient(135deg, #071a0f 0%, #0f2c18 45%, #153b24 100%);
   font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #e6f9e8;
